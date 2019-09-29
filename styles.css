@@ -13,7 +13,6 @@ body {
 h1 {
     text-align: center;
 }
-
 /**
  * - 中央揃えにする(ヒント: margin, auto)
  */
@@ -26,7 +25,6 @@ table {
 td {
     width: 100px;
     height: 100px;
-
  }
 
 /**
@@ -39,7 +37,6 @@ td {
 .vertical {
     border-left: 1px solid #000000;
     border-right: 1px solid #000000;
-    
 }
 /**
  * - テーブル内のセルに横線(horizontal line)をつけるためのボーダーをセットする
@@ -52,7 +49,6 @@ td {
     border-top: 1px solid #000000;
     border-bottom: 1px solid #000000;
 }
-  
 /**
  * 発展課題
  *
@@ -60,6 +56,6 @@ td {
  * - ヒント: CSSの擬似クラスである:hoverを使う( https://developer.mozilla.org/ja/docs/Web/CSS/:hover )
  *   - 擬似クラスは学習コンテンツでは扱っていませんが、ドキュメントを見て課題を解決スキルを身につけるのを目的に発展課題を用意しました
  */
- td:hover {
+td:hover {
     border: 1px solid #aaaaaa;
 } 
